@@ -1,0 +1,180 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="app/categories/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Study Life Assistance
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="deals-listing-content">
+  <ng-container>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/universityclubs/']">
+              University Clubs
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/parttimework/']">
+              Work Part-time
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/workvisa/']">
+              Post Work Visa Policy
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+        <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/irdnumber/']">
+              IRD Number Policy
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/lostpassport/']">
+              Lost Passport
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/accomodation/']">
+              Accomodation
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/livingcost/']">
+              Living Cost
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/bankaccount/']">
+              Bank Account Application
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+  </ng-container>
+</ion-content>
+
+<!-- <ion-content>
+  <ion-row class="categories-list">
+    <ion-col class="category-item travel-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/universityclubs']">
+            <h2 class="category-title">University Clubs</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item fashion-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/parttimework']">
+            <h2 class="category-title">Work Part-time</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item food-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/workvisa']">
+            <h2 class="category-title">Post Work Visa Policy</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item deals-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/irdnumber']">
+            <h2 class="category-title">IRD Number Policy</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/lostpassport']">
+            <h2 class="category-title">Lost Passport</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/accomodation']">
+            <h2 class="category-title">Accomodation</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>    <ion-col class="category-item real-estate-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/livingcost']">
+            <h2 class="category-title">Living Cost</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/bankaccount']">
+            <h2 class="category-title">Bank Account Application</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+  </ion-row>
+</ion-content> -->

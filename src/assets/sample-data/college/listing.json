@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "slug": "christchurchboys",
+      "image": "./assets/PEAL/chboys.png",
+      "icon": "./assets/PEAL/chboys.png",
+      "name": "Christchurch Boy’s High School",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 2,
+      "slug": "darfield",
+      "image": "./assets/PEAL/darfield.png",
+      "icon": "./assets/PEAL/darfield.png",
+      "name": "Darfield High School",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 3,
+      "slug": "ellesmere",
+      "image": "./assets/PEAL/ellesmere.jpeg",
+      "icon": "./assets/PEAL/ellesmere.jpeg",
+      "name": "Ellesmere College",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 4,
+      "slug": "huttvalley",
+      "image": "./assets/PEAL/hvhs.jpeg",
+      "icon": "./assets/PEAL/hvhs.jpeg",
+      "name": "Hutt Valley High School",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 5,
+      "slug": "lincolnhigh",
+      "image": "./assets/PEAL/lincolnhs.jpeg",
+      "icon": "./assets/PEAL/lincolnhs.jpeg",
+      "name": "Lincoln High School",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 6,
+      "slug": "rangiora",
+      "image": "./assets/PEAL/rangiora.jpeg",
+      "icon": "./assets/PEAL/rangiora.jpeg",
+      "name": "Rangiora High School",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 7,
+      "slug": "riccarton",
+      "image": "./assets/PEAL/otago.jpg",
+      "icon": "./assets/PEAL/otago.jpg",
+      "name": "Riccarton High School",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 8,
+      "slug": "stbedes",
+      "image": "./assets/PEAL/otago.jpg",
+      "icon": "./assets/PEAL/otago.jpg",
+      "name": "St Bede's College",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    },
+    {
+      "id": 9,
+      "slug": "stmargaret",
+      "image": "./assets/PEAL/otago.jpg",
+      "icon": "./assets/PEAL/otago.jpg",
+      "name": "St Margaret’s College",
+      "category": "College",
+      "description": "description",
+      "rating": 100,
+      "address": "address"
+    }
+  ]
+}

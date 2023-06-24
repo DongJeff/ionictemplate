@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="app/categories/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      NZ Education System
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="deals-listing-content">
+  <ng-container>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/tertiarysystem/']">
+              Tertiary Education System
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/secondarysystem/']">
+              Secondary Education System
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/nzqasystem/']">
+              New Zealand Qualifications Framework Overview
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+  </ng-container>
+</ion-content>
+<!-- <ion-content>
+  <ion-row class="categories-list">
+    <ion-col class="category-item travel-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner">
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/tertiarysystem']">
+            <h2 class="category-title">Tertiary Education System</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item fashion-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner">
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/secondarysystem']">
+            <h2 class="category-title">Secondary Education System</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item deals-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner">
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/nzqasystem']">
+            <h2 class="category-title">New Zealand Qualifications Framework Overview</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+  </ion-row>
+</ion-content> -->

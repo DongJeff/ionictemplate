@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+           "wwrating": "87",
+           "nzrating": "1",
+           "name": "The University of Auckland",
+           "gender": "male"
+         },
+         {
+           "wwrating": "217",
+           "nzrating": "2",
+           "name": "University of Otago",
+           "gender": "male"
+         },
+         {
+           "wwrating": "275",
+           "nzrating": "3",
+           "name": "Victoria University of Wellington",
+           "gender": "female"
+         },
+         {
+           "wwrating": "284",
+           "nzrating": "4",
+           "name": "University of Canterbury",
+           "gender": "male"
+         },
+         {
+           "wwrating": "292",
+           "nzrating": "5",
+           "name": "Massey University",
+           "gender": "male"
+         },
+         {
+           "wwrating": "331",
+           "nzrating": "6",
+           "name": "University of Waikato",
+           "gender": "male"
+         },
+         {
+           "wwrating": "368",
+           "nzrating": "7",
+           "name": "Lincoln University",
+           "gender": "male"
+         },
+         {
+           "wwrating": "486",
+           "nzrating": "8",
+           "name": "Auckland University of Technology",
+           "gender": "male"
+         }
+    ]
+}

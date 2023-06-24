@@ -14,30 +14,85 @@ import { Preferences } from '@capacitor/preferences';
   ]
 })
 export class AppComponent {
-  appPages = [
+  country = [
     {
-      title: 'Categories',
-      url: '/app/categories',
-      ionicIcon: 'list-outline'
+      title: 'New Zealand Overview',
+      url: '/app/categories/country/',
+      ionicIcon: 'notifications-outline'
     },
     {
-      title: 'Profile',
-      url: '/app/user',
-      ionicIcon: 'person-outline'
-    },
-    {
-      title: 'Contact Card',
-      url: '/contact-card',
-      customIcon: './assets/custom-icons/side-menu/contact-card.svg'
-    },
-    {
-      title: 'Notifications',
-      url: '/app/notifications',
+      title: 'New Zealand Education System',
+      url: '/app/categories/edusystem/',
       ionicIcon: 'notifications-outline'
     }
   ];
+  schools = [
+    {
+      title: 'Universities',
+      url: '/app/categories/university/',
+      customIcon: './assets/custom-icons/side-menu/contact-card.svg'
+    },
+    {
+      title: 'Polytechnics',
+      url: '/app/categories/polytech',
+      ionicIcon: 'notifications-outline'
+    },
+    {
+      title: 'Colleges',
+      url: '/app/categories/college',
+      ionicIcon: 'notifications-outline'
+    },
+    {
+      title: 'New Zealand University Rankings',
+      url: '/app/categories/ranking/',
+      ionicIcon: 'notifications-outline'
+    }
+  ];
+  coop = [
 
-  accountPages = [
+/*     {
+      title: 'Partner Organizations',
+      url: '/app/notifications',
+      ionicIcon: 'notifications-outline'
+    } */
+  ];
+  study = [
+    {
+      title: 'Cooperation Programmes',
+      url: '/app/categories/coopmenu/',
+      ionicIcon: 'notifications-outline'
+    },
+    {
+      title: 'Qualification Upgrade',
+      url: '/app/categories/upgrade/',
+      ionicIcon: 'notifications-outline'
+    },
+    {
+      title: 'Study Life Assistance',
+      url: '/app/categories/studlife/',
+      ionicIcon: 'notifications-outline'
+    }
+  ];
+  other = [
+
+    {
+      title: 'Frequently Asked Questions',
+      url: '/app/notifications',
+      ionicIcon: 'notifications-outline'
+    },    
+    {
+      title: 'Application Portal',
+      url: '/app/notifications',
+      ionicIcon: 'notifications-outline'
+    },    
+    {
+      title: 'Contact Us',
+      url: '/app/notifications',
+      ionicIcon: 'notifications-outline'
+    }
+  ]
+
+/*   accountPages = [
     {
       title: 'Log In',
       url: '/auth/login',
@@ -58,7 +113,7 @@ export class AppComponent {
       url: '/page-not-found',
       ionicIcon: 'alert-circle-outline'
     }
-  ];
+  ]; */
 
   constructor(private router: Router) {
     this.initializeApp();

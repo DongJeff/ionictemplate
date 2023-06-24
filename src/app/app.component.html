@@ -3,9 +3,67 @@
   <!-- For more info check https://ionicframework.com/docs/api/split-pane -->
   <ion-split-pane contentId="menu-content" when="false">
     <ion-menu contentId="menu-content" class="app-sidemenu">
-      <ion-header>
-        <ion-toolbar>
-          <ion-row class="user-details-wrapper">
+      <ion-content>
+        <ion-list>
+              <div>
+                <ion-searchbar></ion-searchbar>
+              </div>
+          <ion-list-header>
+            <ion-label>New Zealand</ion-label>
+          </ion-list-header>
+          <ion-menu-toggle autoHide="false" *ngFor="let p of country; let i = index">
+            <ion-item [routerLink]="p.url">
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+        <ion-list>
+          <ion-list-header>
+            <ion-label>Schools</ion-label>
+          </ion-list-header>
+          <ion-menu-toggle autoHide="false" *ngFor="let p of schools; let i = index">
+            <ion-item [routerLink]="p.url">
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+        <ion-list>
+          <ion-list-header>
+            <ion-label>Students</ion-label>
+          </ion-list-header>
+          <ion-menu-toggle autoHide="false" *ngFor="let p of study; let i = index">
+            <ion-item [routerLink]="p.url">
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+        <ion-list>
+          <ion-list-header>
+            <ion-label>Other</ion-label>
+          </ion-list-header>
+          <ion-menu-toggle autoHide="false" *ngFor="let p of other; let i = index">
+            <ion-item [routerLink]="p.url">
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <!-- Main app content gets rendered in this router-outlet -->
+    <ion-router-outlet id="menu-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
+     <!--  <ion-header>
+        <ion-toolbar> -->
+          <!-- <ion-row class="user-details-wrapper">
             <ion-col size="4">
               <app-aspect-ratio [ratio]="{w: 1, h: 1}">
                 <app-image-shell class="user-avatar" animation="spinner" [src]="'./assets/sample-images/ionicthemes_logo.jpg'"></app-image-shell>
@@ -15,8 +73,8 @@
               <h3 class="user-name">Ionic Themes</h3>
               <h5 class="user-handle">@IonicThemes</h5>
             </ion-col>
-          </ion-row>
-          <ion-row class="user-stats-wrapper user-details-wrapper">
+          </ion-row> -->
+          <!-- <ion-row class="user-stats-wrapper user-details-wrapper">
             <ion-col>
               <span class="user-stat-value">1553</span>
               <span class="user-stat-name">Following</span>
@@ -25,10 +83,10 @@
               <span class="user-stat-value">537</span>
               <span class="user-stat-name">Followers</span>
             </ion-col>
-          </ion-row>
-        </ion-toolbar>
-      </ion-header>
-      <ion-content>
+          </ion-row> -->
+<!--         </ion-toolbar>
+      </ion-header> -->
+  <!--     <ion-content>
         <ion-list>
           <ion-list-header>
             <ion-label>Layouts</ion-label>
@@ -115,8 +173,8 @@
           </ion-menu-toggle>
         </ion-list>
       </ion-content>
-    </ion-menu>
+    </ion-menu> -->
     <!-- Main app content gets rendered in this router-outlet -->
-    <ion-router-outlet id="menu-content"></ion-router-outlet>
+   <!-- <ion-router-outlet id="menu-content"></ion-router-outlet>
   </ion-split-pane>
-</ion-app>
+</ion-app> -->

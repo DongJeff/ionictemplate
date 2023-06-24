@@ -4,7 +4,7 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Categories
+      Main Menu
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,49 +12,160 @@
 <ion-content>
   <ion-row class="categories-list">
     <ion-col class="category-item travel-category" size="12">
-      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/sample-images/categories/travel.png'">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" >
         <app-aspect-ratio [ratio]="{w:75, h:49}">
-          <a class="category-anchor" [routerLink]="['/app/categories/travel']">
-            <h2 class="category-title">Travel</h2>
+          <a class="category-anchor" [routerLink]="['/app/categories/tertiaryalt']">
+            <h2 class="category-title">Ad here</h2>
           </a>
         </app-aspect-ratio>
       </app-image-shell>
     </ion-col>
-    <ion-col class="category-item fashion-category" size="6">
-      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/sample-images/categories/fashion.png'">
-        <app-aspect-ratio [ratio]="{w:1, h:1}">
-          <a class="category-anchor" [routerLink]="['/app/categories/fashion']">
-            <h2 class="category-title">Fashion</h2>
+    <ion-col class="category-item travel-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzuniversity.jpg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/tertiaryalt']">
+            <h2 class="category-title">Tertiary Education</h2>
           </a>
         </app-aspect-ratio>
       </app-image-shell>
     </ion-col>
     <ion-col class="category-item food-category" size="6">
-      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/sample-images/categories/food.png'">
-        <app-aspect-ratio [ratio]="{w:1, h:1}">
-          <a class="category-anchor" [routerLink]="['/app/categories/food']">
-            <h2 class="category-title">Food</h2>
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzcollege.jpg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/collegemenu']">
+            <h2 class="category-title">New Zealand Colleges</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>  
+    <ion-col class="category-item deals-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/coop.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/coopmenu']">
+            <h2 class="category-title">Education Cooperation</h2>
           </a>
         </app-aspect-ratio>
       </app-image-shell>
     </ion-col>
-    <ion-col class="category-item deals-category" size="12">
-      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/sample-images/categories/deals.png'">
-        <app-aspect-ratio [ratio]="{w:75, h:30}">
-          <a class="category-anchor" [routerLink]="['/app/categories/deals']">
-            <h2 class="category-title">Deals</h2>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzflag.png'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/country']">
+            <h2 class="category-title">New Zealand Overview</h2>
           </a>
         </app-aspect-ratio>
       </app-image-shell>
     </ion-col>
-    <ion-col class="category-item real-estate-category" size="12">
-      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/sample-images/categories/real-estate.png'">
-        <app-aspect-ratio [ratio]="{w:75, h:30}">
-          <a class="category-anchor" [routerLink]="['/app/categories/real-estate']">
-            <h2 class="category-title">Real Estate</h2>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzedu.png'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/edusystem']">
+            <h2 class="category-title">New Zealand Education System</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/ranking.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/ranking']">
+            <h2 class="category-title">New Zealand University Ranking Overview</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/upgrade.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/upgrade']">
+            <h2 class="category-title">Qualification Upgrade</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/studlife.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/studlife']">
+            <h2 class="category-title">Study Life Assistance</h2>
           </a>
         </app-aspect-ratio>
       </app-image-shell>
     </ion-col>
   </ion-row>
 </ion-content>
+
+<!-- <ion-content>
+  <ion-row class="categories-list">
+    <ion-col class="category-item travel-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzuniversity.jpg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/tertiaryalt']">
+            <h2 class="category-title">Tertiary Education</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item food-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzcollege.jpg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/collegemenu']">
+            <h2 class="category-title">New Zealand Colleges</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item deals-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/coop.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/coopmenu']">
+            <h2 class="category-title">Education Cooperation</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzflag.png'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/country']">
+            <h2 class="category-title">New Zealand Overview</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzedu.png'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/edusystem']">
+            <h2 class="category-title">New Zealand Education System</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/ranking.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/ranking']">
+            <h2 class="category-title">New Zealand University Ranking Overview</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/upgrade.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/upgrade']">
+            <h2 class="category-title">Qualification Upgrade</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item real-estate-category" size="6">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/studlife.jpeg'">
+        <app-aspect-ratio [ratio]="{w:75, h:75}">
+          <a class="category-anchor" [routerLink]="['/app/categories/studlife']">
+            <h2 class="category-title">Study Life Assistance</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+  </ion-row>
+</ion-content> -->

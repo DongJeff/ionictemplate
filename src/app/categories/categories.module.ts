@@ -1,6 +1,6 @@
 import { IonicModule } from '@ionic/angular';
 import { RouterModule, Routes } from '@angular/router';
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ComponentsModule } from '../components/components.module';
@@ -24,3 +24,4 @@ const categoriesRoutes: Routes = [
   declarations: [ CategoriesPage ]
 })
 export class CategoriesPageModule {}
+

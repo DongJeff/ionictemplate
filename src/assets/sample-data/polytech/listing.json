@@ -1,0 +1,169 @@
+{
+  "items": [
+      {
+        "id": 1,
+        "slug": "ara",
+        "image": "./assets/PEAL/auckland.png",
+        "icon": "./assets/PEAL/auckland.png",
+        "name": "Ara Institute of Canterbury",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 2,
+        "slug": "toi",
+        "image": "./assets/PEAL/aut.jpg",
+        "icon": "./assets/PEAL/aut.jpg",
+        "name": "Toi Ohomai Institute of Technology",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 3,
+        "slug": "eit",
+        "image": "./assets/PEAL/canterbury.svg.png",
+        "icon": "./assets/PEAL/canterbury.svg.png",
+        "name": "Eastern Institute of Technology",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 4,
+        "slug": "mit",
+        "image": "./assets/PEAL/lincoln.jpg",
+        "icon": "./assets/PEAL/lincoln.jpg",
+        "name": "Manukau Institute of Technology",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 5,
+        "slug": "nmit",
+        "image": "./assets/PEAL/massey.jpg",
+        "icon": "./assets/PEAL/massey.jpg",
+        "name": "Nelson-Marlborough Institute of Technology",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 6,
+        "slug": "northland",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Northland Polytechnic",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 7,
+        "slug": "open",
+        "image": "./assets/PEAL/vuw.jpg",
+        "icon": "./assets/PEAL/vuw.jpg",
+        "name": "Open Polytechnic",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 8,
+        "slug": "tai",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Tai Poutini Polytechnic",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 9,
+        "slug": "unitech",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Unitec",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 10,
+        "slug": "ucol",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Universal College of Learning",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 11,
+        "slug": "wit",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Waikato Institute of Technology",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 12,
+        "slug": "wandw",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Wellington Institute of Technology and Whitireia Community Polytechnic",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 13,
+        "slug": "wit",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Western Institute of Technology",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 14,
+        "slug": "otagop",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Otago Polytechnic",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      },
+      {
+        "id": 14,
+        "slug": "sit",
+        "image": "./assets/PEAL/otago.jpg",
+        "icon": "./assets/PEAL/otago.jpg",
+        "name": "Southern Institute of Technology",
+        "category": "Polytechnic Institute",
+        "description": "description",
+        "rating": 100,
+        "address": "address"
+      }
+  ]
+}

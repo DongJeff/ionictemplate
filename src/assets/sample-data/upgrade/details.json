@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+        "id": 1,
+        "slug": "hs_to_ug",
+        "showcaseImages": [
+          "./assets/sample-images/deals/Deal-Details-showcase-1.jpg",
+          "./assets/sample-images/deals/Deal-Details-showcase-2.jpg"
+        ],
+        "previewImage": "./assets/sample-images/deals/Deal-Details-preview.png",
+        "logo": "./assets/sample-images/deals/Deals1-4.1.png",
+        "name": "Senior High School to Undergraduate Study",
+        "code": "CHOC4LIFE",
+        "description": "Group: for the student can not meet the university entrance directly",
+        "expirationDate": "12/01/2018",
+        "relatedDeals": [
+          {
+            "logo": "./assets/sample-images/deals/Deal-Details-related-1.jpg",
+            "name": "35% off",
+            "description": "Candy buffet!"
+          },
+          {
+            "logo": "./assets/sample-images/deals/Deal-Details-related-2.jpg",
+            "name": "15% off",
+            "description": "Breakfast"
+          },
+          {
+            "logo": "./assets/sample-images/deals/Deal-Details-related-3.jpg",
+            "name": "60% off",
+            "description": "Speciality bars"
+          }
+        ]
+    }
+  ]
+}

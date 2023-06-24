@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="app/categories/coop/pathway"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pathway Program/Credit Recognition</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="travel-details-content">
+  <ion-row class="description-row">
+    <ion-col size="12">
+      <h3 class="details-name">
+        {{details?.name?.concat(' - ', details?.category)}}
+      </h3>
+      <p class="details-short-description">
+        {{details?.shortDescription}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <ion-row class="details-tags">
+        <ion-col class="tag-wrapper" *ngFor="let tag of details?.tags">
+          <span class="item-tag">
+            {{tag}}
+          </span>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Introduction</h3>
+      <p class="details-description">
+        {{details?.fullDescription}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Entry Requirements</h3>
+      <p class="details-description">
+        {{details?.fullDescription}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Academic Programmes</h3>
+      <p class="details-description">
+        {{details?.fullDescription}}
+      </p>
+    </ion-col>
+  </ion-row>
+</ion-content>

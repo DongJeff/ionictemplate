@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="app/categories/upgrade"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Upgrade Qualifications</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="travel-details-content">
+  <ion-row class="description-row">
+    <ion-col size="12">
+      <h3 class="details-name">
+        {{details?.name}}
+      </h3>
+    </ion-col>
+    <ion-col size="12">
+      <ion-row class="details-tags">
+        <ion-col class="tag-wrapper" *ngFor="let tag of details?.tags">
+          <span class="item-tag">
+            {{details?.schools}}
+          </span>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Introduction</h3>
+      <p class="details-description">
+        {{details?.description}}
+      </p>
+    </ion-col>
+  </ion-row>
+</ion-content>

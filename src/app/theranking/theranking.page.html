@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="app/categories/ranking"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      NZ University Rankings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="categories-list">
+    <ion-col size="12">
+      <h3 class="detail-title">Times Higher Education World University Ranking Overview</h3>
+      <p class="details-description">
+        
+      </p>
+    </ion-col>
+    <table class="table table-striped">
+      <thead>
+          <tr>
+            <th>Worldwide Ranking&nbsp;&nbsp;</th>
+            <th>&nbsp;&nbsp;New Zealand Ranking&nbsp;&nbsp;</th>
+            <th>&nbsp;&nbsp;University</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of items">
+          <td>{{ item.wwrating }}</td>
+          <td>{{ item.nzrating }}</td>
+          <td>{{ item.name }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </ion-row>
+</ion-content>

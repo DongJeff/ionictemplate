@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "slug": "hs_to_ug",
+      "code": "CHOC4LIFE",
+      "description": "Group: for the student can not meet the university entrance directly",
+      "name": "Senior High School to Undergraduate Study",
+      "schools": "UCIC, Lincoln, MUC, ICL",
+      "logo": "./assets/sample-images/deals/Deals1-4.1.png"
+    }, {
+      "id": 2,
+      "slug": "dip_to_M",
+      "code": "20LIGHT25",
+      "description": "GROUP: for the diploma student can not enter the university Master degree directly",
+      "name": "Diploma to Postgraduate Study",
+      "schools": "Massey GD, Lincoln GD, Waikato",
+      "logo": "./assets/sample-images/deals/Deals2-4.1.png"
+    }, {
+      "id": 3,
+      "slug": "ug_major",
+      "code": "MORETVPLZ3",
+      "description": "GROUP: for the Undergraduate student wishes to change the major at Master degree",
+      "name": "Undergraduate To Postgraduate Study (In different Major）",
+      "schools": "Massey GD, Lincoln GD, Waikato",
+      "logo": "./assets/sample-images/deals/Deals3-4.1.png"
+    }
+  ]
+}

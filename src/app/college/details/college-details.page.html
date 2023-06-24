@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="app/categories/college/listing"></ion-back-button>
+    </ion-buttons>
+    <ion-title>School Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="travel-details-content">
+  <ion-row class="image-row">
+    <ion-col size="12">
+      <app-image-shell [display]="'cover'" animation="spinner" class="add-overlay details-image" [src]="details?.image">
+        <app-aspect-ratio [ratio]="{w:64, h:50}">
+          <div class="icon-wrapper">
+            <app-aspect-ratio [ratio]="{w: 47, h: 25}">
+              <!-- <app-image-shell [src]="details?.icon" class="details-icon"></app-image-shell> -->
+            </app-aspect-ratio>
+          </div>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+  </ion-row>
+  <ion-row class="description-row">
+    <ion-col size="12">
+      <h3 class="details-name">
+        {{details?.name}}
+      </h3>
+      <p class="details-short-description">
+        {{details?.shortDescription}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <ion-row class="details-tags">
+        <ion-col class="tag-wrapper" *ngFor="let tag of details?.tags">
+          <span class="item-tag">
+            {{tag}}
+          </span>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Overview</h3>
+      <p class="details-description">
+        {{details?.fullDescription}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Tuition Fees</h3>
+      <p class="details-description">
+        {{details?.fullDescription}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Refund Policy</h3>
+      <p class="details-description">
+        {{details?.fullDescription}}
+      </p>
+    </ion-col>
+    <ion-col size="12">
+      <h3 class="detail-title">Key Dates</h3>
+      <p class="details-description">
+        {{details?.fullDescription}}
+      </p>
+    </ion-col>
+  </ion-row>
+  <div class="location-wrapper">
+    <div class="location-header">
+      <h3 class="detail-title">Where?</h3>
+      <span class="location-address">
+        {{details?.location?.address}}
+      </span>
+    </div>
+    <!-- <app-aspect-ratio [ratio]="{w: 64, h: 30}">
+      <app-image-shell [src]="'https://maps.googleapis.com/maps/api/staticmap?center=' + details.location?.latlng + '&zoom=15&size=640x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xd9453a%7C' + details.location?.latlng + '&key=YOUR_KEY_HERE'">
+      </app-image-shell>
+    </app-aspect-ratio> -->
+    <app-aspect-ratio [ratio]="{w: 64, h: 30}">
+      <app-image-shell class="location-image" animation="spinner" [src]="details?.location?.mapImage"></app-image-shell>
+    </app-aspect-ratio>
+  </div>
+
+</ion-content>

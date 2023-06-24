@@ -1,16 +1,25 @@
  <ion-tabs (ionTabsDidChange)="ionTabsDidChange($event)">
   <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="categories" [routerLinkActive]="['tab-selected']" [routerLink]="['/app/categories']">
-      <ion-icon name="list-outline"></ion-icon>
-      <ion-label class="tab-title">Categories</ion-label>
+    <ion-tab-button tab="categories" [routerLinkActive]="['tab-selected']" >
+      <ion-icon name="heart-outline"></ion-icon>
+      <ion-label class="tab-title">Like</ion-label>
     </ion-tab-button>
-    <ion-tab-button tab="user" [routerLinkActive]="['tab-selected']" [routerLink]="['/app/user']">
-      <ion-icon name="person-outline"></ion-icon>
-      <ion-label class="tab-title">Profile</ion-label>
+    <ion-tab-button tab="notifications" [routerLinkActive]="['tab-selected']" >
+      <ion-icon name="share-outline"></ion-icon>
+      <ion-label class="tab-title">Share</ion-label>
     </ion-tab-button>
-    <ion-tab-button tab="notifications" [routerLinkActive]="['tab-selected']" [routerLink]="['/app/notifications']">
-      <ion-icon name="notifications-outline"></ion-icon>
-      <ion-label class="tab-title">Notifications</ion-label>
+
+    <ion-tab-button tab="categories" [routerLinkActive]="['tab-selected']" >
+      <ion-icon name="home-outline"></ion-icon>
+      <ion-label class="tab-title">Home</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="user" [routerLinkActive]="['tab-selected']" >
+      <ion-icon name="settings-outline"></ion-icon>
+      <ion-label class="tab-title">Settings</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="notifications" [routerLinkActive]="['tab-selected']" >
+      <ion-icon name="language-outline"></ion-icon>
+      <ion-label class="tab-title">中文/English</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs>

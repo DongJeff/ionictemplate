@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="app/categories"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      NZ High Schools
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="deals-listing-content">
+  <ng-container>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/college/']">
+              High Schools Full List
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/gap/']">
+              General Application
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="listing-item">
+      <ion-row class="middle-row">
+        <ion-col class="info-col">
+          <h4 class="item-name">
+            <a class="name-anchor" [routerLink]="['/app/categories/gapdocs/']">
+              General Application Supporting Documents
+            </a>
+          </h4>
+        </ion-col>
+      </ion-row>
+    </div>
+  </ng-container>
+</ion-content>
+<!-- <ion-content>
+  <ion-row class="categories-list">
+    <ion-col class="category-item travel-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzuniversity.jpg'">
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/college']">
+            <h2 class="category-title">High Schools</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item fashion-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzpolytechnic.jpg'">
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/gap']">
+            <h2 class="category-title">General Application Process Intro</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+    <ion-col class="category-item food-category" size="4">
+      <app-image-shell [display]="'cover'" class="category-cover" animation="spinner" [src]="'./assets/PEAL/nzcollege.jpg'">
+        <app-aspect-ratio [ratio]="{w:75, h:49}">
+          <a class="category-anchor" [routerLink]="['/app/categories/gapdocs']">
+            <h2 class="category-title">General Application Supporting Documents Intro</h2>
+          </a>
+        </app-aspect-ratio>
+      </app-image-shell>
+    </ion-col>
+  </ion-row>
+</ion-content> -->
