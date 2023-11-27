@@ -4,16 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/walkthrough',
+    redirectTo: '/app/categories',
     pathMatch: 'full'
-  },
-  {
-    path: 'walkthrough',
-    loadChildren: () => import('./walkthrough/walkthrough.module').then(m => m.WalkthroughPageModule)
-  },
-  {
-    path: 'getting-started',
-    loadChildren: () => import('./getting-started/getting-started.module').then(m => m.GettingStartedPageModule)
   },
   {
     path: 'auth',

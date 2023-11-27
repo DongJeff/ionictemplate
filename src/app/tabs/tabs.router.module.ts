@@ -22,36 +22,12 @@ const routes: Routes = [
             loadChildren: () => import('../categories/categories.module').then(m => m.CategoriesPageModule)
           },
           {
-            path: 'fashion',
-            loadChildren: () => import('../fashion/listing/fashion-listing.module').then(m => m.FashionListingPageModule)
-          },
-          {
-            path: 'fashion/:productId',
-            loadChildren: () => import('../fashion/details/fashion-details.module').then(m => m.FashionDetailsPageModule)
-          },
-          {
-            path: 'food',
-            loadChildren: () => import('../food/listing/food-listing.module').then(m => m.FoodListingPageModule)
-          },
-          {
-            path: 'food/:productId',
-            loadChildren: () => import('../food/details/food-details.module').then(m => m.FoodDetailsPageModule)
-          },
-          {
             path: 'deals',
             loadChildren: () => import('../deals/listing/deals-listing.module').then(m => m.DealsListingPageModule)
           },
           {
             path: 'deals/:productId',
             loadChildren: () => import('../deals/details/deals-details.module').then(m => m.DealsDetailsPageModule)
-          },
-          {
-            path: 'real-estate',
-            loadChildren: () => import('../real-estate/listing/real-estate-listing.module').then(m => m.RealEstateListingPageModule)
-          },
-          {
-            path: 'real-estate/:productId',
-            loadChildren: () => import('../real-estate/details/real-estate-details.module').then(m => m.RealEstateDetailsPageModule)
           },
           {
             path: 'coop',
@@ -218,10 +194,6 @@ const routes: Routes = [
             path: '',
             loadChildren: () => import('../user/profile/user-profile.module').then(m => m.UserProfilePageModule)
           },
-          {
-            path: 'friends',
-            loadChildren: () => import('../user/friends/user-friends.module').then(m => m.UserFriendsPageModule)
-          }
         ]
       },
       {

@@ -1,9 +1,9 @@
 <ion-header>
   <ion-toolbar color="primary">
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="app/categories/coop"></ion-back-button>
+      <ion-back-button defaultHref="app/categories/coop/listing"></ion-back-button>
     </ion-buttons>
-    <ion-title>Cooperation Programme</ion-title>
+    <ion-title>Cooperation Institution in Running Schools</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -11,13 +11,13 @@
   <ion-row class="description-row">
     <ion-col size="12">
       <h3 class="details-name">
-        {{details?.name?.concat(' - ', details?.category)}}
+        {{details?.name}}
       </h3>
       <p class="details-short-description">
-        {{details?.shortDescription}}
+        {{details?.parties}}
       </p>
     </ion-col>
-    <ion-col size="12">
+    <!-- <ion-col size="12">
       <ion-row class="details-tags">
         <ion-col class="tag-wrapper" *ngFor="let tag of details?.tags">
           <span class="item-tag">
@@ -25,11 +25,14 @@
           </span>
         </ion-col>
       </ion-row>
-    </ion-col>
+    </ion-col> -->
     <ion-col size="12">
       <h3 class="detail-title">Introduction</h3>
       <p class="details-description">
-        {{details?.fullDescription}}
+        {{details?.schoolLevel}}
+      </p>
+      <p class="details-description">
+        {{details?.mode}}
       </p>
     </ion-col>
     <ion-col size="12">
@@ -41,7 +44,7 @@
     <ion-col size="12">
       <h3 class="detail-title">Academic Programmes</h3>
       <p class="details-description">
-        {{details?.fullDescription}}
+        {{details?.qualifications}}
       </p>
     </ion-col>
   </ion-row>

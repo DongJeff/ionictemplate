@@ -4,131 +4,169 @@
           "id": 1,
           "slug": "universityofauckland",
           "image": "./assets/PEAL/auckland.png",
-          "icon": "./assets/sample-images/travel/travel-details-icon.png",
-          "name": "University of Auckland ",
+          "icon": "./assets/PEAL/auckland.png",
+          "name": "University of Auckland",
+          "rating":"",
           "category": "University",
           "shortDescription": "Public research university based in Auckland, New Zealand.",
-          "rating": 87,
-          "reviewsCount": 17,
           "tags": [
-            "University"
+          	"University"
           ],
-          "fullDescription": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
-          "openHours": [
-            {
-              "day": "Monday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "22:00"
-            },
-            {
-              "day": "Tuesday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "22:00"
-            },
-            {
-              "day": "Wednesday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "22:00"
-            },
-            {
-              "day": "Thursday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "24:00"
-            },
-            {
-              "day": "Friday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "24:00"
-            },
-            {
-              "day": "Saturday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "24:00"
-            },
-            {
-              "day": "Sunday",
-              "open": false,
-              "hourFrom": "00:00",
-              "hourTo": "00:00"
-            }
-          ],
-          "location": {
-            "address": "20 Symonds Street",
-            "city": "Auckland, New Zealand",
-            "latlng": "-34.9026348,-56.1814708",
-            "mapImage": "./assets/sample-images/travel/travel-map.png"
-          }
+	"overview": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
+	  "topMajors":"",
+	  "keyDates":"",
+	  "faculties":"",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":""
+
         },
-        {
+{
           "id": 2,
           "slug": "aut",
-          "image": "./assets/PEAL/aut.png",
-          "icon": "./assets/sample-images/travel/travel-details-icon.jpg",
-          "name": "Auckland University of Technology",
+          "image": "./assets/PEAL/auckland.png",
+          "icon": "./assets/PEAL/auckland.png",
+          "name": "University of Auckland",
+          "rating":"",
           "category": "University",
           "shortDescription": "Public research university based in Auckland, New Zealand.",
-          "rating": 97,
-          "reviewsCount": 17,
           "tags": [
             "University"
           ],
           "fullDescription": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
-          "openHours": [
-            {
-              "day": "Monday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "22:00"
-            },
-            {
-              "day": "Tuesday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "22:00"
-            },
-            {
-              "day": "Wednesday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "22:00"
-            },
-            {
-              "day": "Thursday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "24:00"
-            },
-            {
-              "day": "Friday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "24:00"
-            },
-            {
-              "day": "Saturday",
-              "open": true,
-              "hourFrom": "12:00",
-              "hourTo": "24:00"
-            },
-            {
-              "day": "Sunday",
-              "open": false,
-              "hourFrom": "00:00",
-              "hourTo": "00:00"
-            }
+	  "topMajors":"",
+	  "keyDates":"",
+	  "faculties":"",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":""
+        },
+
+
+	{
+          "id": 3,
+          "slug": "canterbury",
+          "image": "./assets/PEAL/auckland.png",
+          "icon": "./assets/PEAL/auckland.png",
+          "name": "University of Auckland",
+          "rating":"",
+          "category": "University",
+          "shortDescription": "Public research university based in Auckland, New Zealand.",
+          "tags": [
+            "University"
           ],
-          "location": {
-            "address": "20 Symonds Street",
-            "city": "Auckland, New Zealand",
-            "latlng": "-34.9026348,-56.1814708",
-            "mapImage": "./assets/sample-images/travel/travel-map.png"
-          }
+          "fullDescription": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
+	  "topMajors":"",
+	  "keyDates":"",
+	  "faculties":"",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":""
+        },
+	{
+          "id": 4,
+          "slug": "lincoln",
+          "image": "./assets/PEAL/lincoln.jpg",
+          "icon": "./assets/PEAL/lincoln.jpg",
+          "name": "Lincoln University",
+          "rating":"362",
+          "category": "University",
+          "shortDescription": "Lincoln University, located in Christchurch, New Zealand, is renowned for its specialized focus on land-based education.",
+          "tags": [
+            "University"
+          ],
+          "fullDescription": "Founded on a strong foundation of land-based education, Lincoln University in Christchurch, New Zealand, has earned a reputation for excellence in several key areas. With a legacy deeply rooted in agriculture, it has evolved into a comprehensive institution with a special emphasis on agribusiness, commerce, resource planning, and environmental design. Students benefit from a curriculum that integrates traditional agricultural studies with cutting-edge fields like artificial intelligence, digital landscape architecture, and GIS technology. The university places a strong emphasis on research, particularly in conservation design, cultural resilience, landscape assessment, landscape ecology, landscape planning, and urban design. This research-driven approach ensures that students are exposed to the latest advancements and contribute to the evolution of their respective fields.",
+	  "topMajors":"Agribusiness, Commerce, Agriculture, Resource Planning, Environmental Design, Transport Studies, Conservation Design, Landscape Architecture, Landscape Ecology, Urban Design",
+	  "keyDates":"Trimester 1 (February to June), Trimester 2 (July to November), Trimester 3 (November to February, for specific programs) *Please note that exact dates may vary annually, and it's advised to refer to the official university calendar.",
+	  "faculties":"Faculty of Agribusiness and Commerce, Faculty of Agriculture and Life Sciences, Faculty of Environment, Society and Design, Faculty of Agriculture and Life Sciences",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":"Undergraduate programs typically span three to four years, depending on the chosen field of study. Postgraduate programs, including Masters and PhDs, have varying durations, often ranging from one to two years for Masters and three to five years for PhDs. Again, specific study periods may vary by program and are outlined in the official academic calendar."
+        },
+	
+	{
+          "id": 5,
+          "slug": "massey",
+          "image": "./assets/PEAL/auckland.png",
+          "icon": "./assets/PEAL/auckland.png",
+          "name": "University of Auckland",
+          "rating":"",
+          "category": "University",
+          "shortDescription": "Public research university based in Auckland, New Zealand.",
+          "tags": [
+            "University"
+          ],
+          "fullDescription": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
+	  "topMajors":"",
+	  "keyDates":"",
+	  "faculties":"",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":""
+        },
+
+	{
+          "id": 6,
+          "slug": "otago",
+          "image": "./assets/PEAL/auckland.png",
+          "icon": "./assets/PEAL/auckland.png",
+          "name": "University of Auckland",
+          "rating":"",
+          "category": "University",
+          "shortDescription": "Public research university based in Auckland, New Zealand.",
+          "tags": [
+            "University"
+          ],
+          "fullDescription": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
+	  "topMajors":"",
+	  "keyDates":"",
+	  "faculties":"",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":""
+        },
+
+	{
+          "id": 7,
+          "slug": "vuw",
+          "image": "./assets/PEAL/auckland.png",
+          "icon": "./assets/PEAL/auckland.png",
+          "name": "University of Auckland",
+          "rating":"",
+          "category": "University",
+          "shortDescription": "Public research university based in Auckland, New Zealand.",
+          "tags": [
+            "University"
+          ],
+          "fullDescription": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
+	  "topMajors":"",
+	  "keyDates":"",
+	  "faculties":"",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":""
+        },
+
+	{
+          "id": 8,
+          "slug": "waikato",
+          "image": "./assets/PEAL/auckland.png",
+          "icon": "./assets/PEAL/auckland.png",
+          "name": "University of Auckland",
+          "rating":"",
+          "category": "University",
+          "shortDescription": "Public research university based in Auckland, New Zealand.",
+          "tags": [
+            "University"
+          ],
+          "fullDescription": "The University of Auckland (UoA) is a public research university based in Auckland, New Zealand. It is the largest, most comprehensive and highest-ranked university in New Zealand and consistently places among the top 100 universities in the QS World University Rankings.[7] The institution was established in 1883 as a constituent college of the University of New Zealand. Originally it was housed in a disused courthouse. Today, the University of Auckland is New Zealand's largest university by enrolment, hosting about 40,000 students on five Auckland campuses.[8] The City Campus, in the Auckland CBD, has the bulk of the students and faculties. There are eight faculties, including a law school, as well as three associated research institutes.",
+	  "topMajors":"",
+	  "keyDates":"",
+	  "faculties":"",
+	  "tuition":"",
+	  "refund":"",
+	  "studyPeriod":""
         }
+        
     ]
 }

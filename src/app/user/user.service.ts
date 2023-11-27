@@ -10,8 +10,4 @@ export class UserService {
   public getProfileData(): Observable<any> {
     return this.http.get('./assets/sample-data/user/user-profile.json');
   }
-
-  public getFriendsData(): Observable<any> {
-    return this.http.get('./assets/sample-data/user/user-friends.json');
-  }
 }
